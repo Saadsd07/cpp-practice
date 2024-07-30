@@ -22,6 +22,7 @@ class test{
         a = obj.a;
         b = obj.b;
     }
+    
 
     void printData(){
         cout<<"value of a = "<<a<<endl;
