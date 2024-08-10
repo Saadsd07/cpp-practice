@@ -8,8 +8,9 @@ int main(){
 
     for(int i=0; i<n; i++){
         int minIdx = i;
-        for(int j=i; j<n; j++){
-            cout<<arr[j]<<" "<<arr[i]<<endl;
+            cout<<"mI"<<" i"<<" "<<" j"<<endl;
+        for(int j=i+1; j<n; j++){
+            cout<<arr[minIdx]<<" "<<arr[i]<<" "<<arr[j]<<endl;
             if(arr[j] < arr[minIdx]){
                 minIdx = j;
             }
